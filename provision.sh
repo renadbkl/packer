@@ -1,6 +1,6 @@
 #!/bin/bash
 # Install docker
-sudo apt update -y && sudo apt install -y docker.io
+curl -Ls get.docker.com | sh
 sudo usermod -aG docker ubuntu
 
 # Create directory to be served
